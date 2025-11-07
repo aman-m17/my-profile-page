@@ -49,9 +49,9 @@ section {
   align-items: center;
   justify-content: center;
   gap: 2.5rem; /* space between image and text */
-  max-width: 900px;
+  max-width: 1000px;
   margin: 4rem auto;
-  padding: 2rem 1rem;
+  padding: 3rem 2rem;
   background-color: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
@@ -78,7 +78,7 @@ section {
   max-width: 550px;
 }
 
-/* === Skills Section === */
+/* Skills Section */
 #skills {
   text-align: center;
   background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
@@ -135,6 +135,7 @@ section {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
+/* Projects Section */
 #projects {
   background-color: #ffffff;
   padding: 3rem 2rem;
