@@ -7,16 +7,29 @@ body {
 }
 
 header {
-  background: #222;
+  background-color: #222;
   color: white;
-  padding: 1em 0;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 nav a {
   color: white;
-  margin: 0 1em;
+  margin: 0 1.2rem;
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00bcd4; /* accent color */
 }
 
 section {
