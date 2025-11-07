@@ -110,7 +110,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem; /* wider spacing for only 3 badges */
+  gap: 3rem; /* wider spacing since only 3 badges */
   margin-top: 2rem;
 }
 
@@ -133,6 +133,82 @@ section {
   background: #0097a7;
   color: white;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+#projects {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #00bcd4;
+  position: relative;
+}
+
+#projects h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #00bcd4;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.project-card {
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+.project-card h3 {
+  color: #00bcd4;
+  margin-bottom: 0.6rem;
+  font-size: 1.3rem;
+}
+
+.project-card p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #00bcd4;
+  font-weight: 600;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+.project-card {
+  border-top: 4px solid transparent;
+}
+
+.project-card:hover {
+  border-top: 4px solid #00bcd4;
 }
 
 footer {
