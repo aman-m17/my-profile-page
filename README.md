@@ -24,4 +24,4 @@ This is a **personal portfolio webpage** built using **HTML and CSS**. It showca
 
 ## Live Demo
 
-You can view the live profile page here: (https://username.github.io/my-profile-page/).
+You can view the live profile page here: (https://aman-m17.github.io/my-profile-page/).
