@@ -27,6 +27,20 @@ skills.forEach((skill) => {
   });
 });
 
+//Fake Contact Form Submission
+const sendBtn = document.getElementById("send-btn");
+const statusBox = document.getElementById("form-status");
+
+sendBtn.addEventListener("click", () => {
+  statusBox.textContent = "Sending message...";
+  statusBox.style.color = "gray";
+
+  setTimeout(() => {
+    statusBox.textContent = "Message sent successfully!";
+    statusBox.style.color = "green";
+  }, 1200);
+});
+
 //Dark Mode Toggle
 const toggle = document.createElement("div");
 toggle.className = "toggle-btn";

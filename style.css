@@ -386,25 +386,107 @@ footer {
   color: #f1f1f1 !important;
 }
 
-.dark-mode {
-  background-color: #121212;
-  color: #f1f1f1;
+.dark-mode p,
+.dark-mode li,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4 {
+  color: #e5e5e5 !important;
 }
 
-.dark-mode section,
-.dark-mode #projects,
+.dark-mode header {
+  background: #000 !important;
+  border-bottom-color: #222 !important;
+}
+
+.dark-mode header nav a {
+  color: #ccc !important;
+}
+
+.dark-mode header nav a:hover {
+  color: #00e5ff !important;
+}
+
+.dark-mode footer {
+  background: #000 !important;
+  color: #aaa !important;
+}
+
+.dark-mode #about {
+  background: #1e1e1e !important;
+}
+
+.dark-mode #about p {
+  color: #e5e5e5 !important;
+}
+
+.dark-mode #about img {
+  border-color: #00e5ff !important;
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.5) !important;
+}
+
+.dark-mode #skills {
+  background: #1e1e1e !important;
+}
+
+.dark-mode #skills h2::after {
+  background: #00e5ff !important;
+}
+
+.dark-mode #skills li {
+  background: #333 !important;
+  color: #00e5ff !important;
+  border-color: #444 !important;
+}
+
+.dark-mode #projects {
+  background: #1e1e1e !important;
+}
+
+.dark-mode .project-card {
+  background: #292929 !important;
+  color: #eee !important;
+  border-color: #444 !important;
+}
+
+.dark-mode .project-card h3 {
+  color: #00e5ff !important;
+}
+
+.dark-mode .project-card p {
+  color: #ccc !important;
+}
+
+.dark-mode .project-card a {
+  color: #00e5ff !important;
+}
+
 .dark-mode #contact {
   background: #1f1f1f !important;
   color: #eee !important;
 }
 
-.dark-mode .project-card {
-  background: #292929 !important;
-  border-color: #444 !important;
+.dark-mode #contact input,
+.dark-mode #contact textarea {
+  background: #333 !important;
+  color: #eee !important;
+  border: 1px solid #555 !important;
 }
 
-.dark-mode header {
-  background: #000 !important;
+.dark-mode #contact button {
+  background: #00e5ff !important;
+  color: black !important;
+}
+
+.dark-mode .toggle-btn {
+  background: #00e5ff !important;
+  color: #000 !important;
+}
+
+.dark-mode #top-btn {
+  background: #00e5ff !important;
+  color: #000 !important;
 }
 
 .toggle-btn {
