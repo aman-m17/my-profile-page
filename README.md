@@ -1,6 +1,10 @@
-### Hands on Learning on HTML and CSS via #My profile web-page
+### Hands on Learning on HTML,CSS and JavaScript via #My profile web-page
 
-This is a **personal portfolio webpage** built using **HTML and CSS**. It showcases my skills, projects, and provides a way for people to contact me. The page is fully responsive and visually appealing with a modern theme.
+## Live Demo
+
+You can view the live profile page here: (https://aman-m17.github.io/my-profile-page/).
+
+This is a **personal portfolio webpage** built using **HTML,CSS and JavaScript**. It showcases my skills, projects, and provides a way for people to contact me. The page is fully responsive, visually appealing with a modern theme and interactive.
 
 ---
 
@@ -19,9 +23,15 @@ This is a **personal portfolio webpage** built using **HTML and CSS**. It showca
 - HTML5
 - CSS3
 - Git & GitHub for version control and hosting
+- JavaScript
 
 ---
 
-## Live Demo
+## JavaScript Features
 
-You can view the live profile page here: (https://aman-m17.github.io/my-profile-page/).
+- Scroll reveal animations
+- Skill hover descriptions
+- Fake form submission with success message
+- Dark/Light mode toggle
+
+---
